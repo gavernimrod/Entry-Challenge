@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/game.css" />
+  </head>
+  <body>
+    
+    <div class="header">
+      <img src="img/layout/logo.png" />
+      <h1>Memory Monsters</h1>
+    </div>
+    <table width="15%">
+      <td width="5%">
+        <button type="button" onclick="changeUser();">Change user</button>
+      </td>
+      <td width="10%">
+        <button
+          type="button"
+          class="resetButton"
+          id="reset"
+          onclick="resetGame()"
+          style="display: none"
+        >
+          Play again
+        </button>
+      </td>
+      <td width="10%">
+        <h4 class="player" id="player">Player:</h4>
+      </td>
+    </table>
+    <div class="board">
+      <div class="card" data-card="1" onclick="cardClicked(this)">
+        <img src="img/cards/1.png" />
+        <img class="back" src="img/cards/back.png" />
+      </div>
+      <div class="card" data-card="7" onclick="cardClicked(this)">
+        <img src="img/cards/7.png" />
+        <img class="back" src="img/cards/back.png" />
+      </div>
+      <div class="card" data-card="1" onclick="cardClicked(this)">
+        <img src="img/cards/1.png" />
+        <img class="back" src="img/cards/back.png" />
+      </div>
+      <div class="card" data-card="7" onclick="cardClicked(this)">
+        <img src="img/cards/7.png" />
+        <img class="back" src="img/cards/back.png" />
+      </div>
+      <div class="card" data-card="5" onclick="cardClicked(this)">
+        <img src="img/cards/5.png" />
+        <img class="back" src="img/cards/back.png" />
+      </div>
+      <div class="card" data-card="5" onclick="cardClicked(this)">
+        <img src="img/cards/5.png" />
+        <img class="back" src="img/cards/back.png" />
+      </div>
+    </div>
+
+    <td width="70%">
+      <h4 class="bestTime" id="time">Best time:</h4>
+      <h4 class="bestPlayer" id="bestPlayer">Player:</h4>
+    </td>
+    <script src="js/game.js"></script>
+    <p><a href="#" onclick="history.go(-1)">Get back!</a></p>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+.header {
+    background-color: lightblue;
+    padding: 20px;
+    border-bottom: 10px solid darkcyan;
+    font-family: Monospace;
+    color:darkcyan;
+    font-size: 2.3em;
+    text-align: center;
+}
+
+.header img {
+    float:center; 
+}
+body {
+    font-family: Arial;
+    background-color: ghostwhite;
+  }
+  a:link, a:visited {
+    background-color: #289e98;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(3, 123, 128);
+  }
+.card {
+    background-color: papayawhip;
+    height: 165px;
+    width: 165px;    
+    float: left;
+    margin: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.card img {
+    position: absolute;
+}
+
+.flipped .back {
+    display: none;
+}

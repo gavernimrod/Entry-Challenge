@@ -1,0 +1,39 @@
+.header {
+  text-align: left
+}
+body {
+  background-color: lightgray;
+  font-family: Arial;
+}
+a.two:link, a.two:visited {
+  background-color: #289e98;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.two:hover, a.two:active {
+  background-color: rgb(3, 123, 128);
+}
+h1 {
+  font-size: 50px;
+}
+a:hover {
+  text-decoration: none;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+}
